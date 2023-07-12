@@ -1211,3 +1211,15 @@ html {
     transform: translateY(-20px);
   }
 }/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 767px) {
+  .links-box ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links-box li {
+    margin: 5px;
+  }
+}
